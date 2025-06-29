@@ -1,0 +1,23 @@
+.contact-content {
+    display: flex;
+    /*  height: 200px;
+    /* background-color: blue; */
+    /*background-color: rgb(208,208,243);
+    padding: 9px;*/
+    background-color: rgb(240, 240, 246);
+   /* background-image: url('../img/invest.jpg');*/
+    position: relative;
+    border-radius: 12px;
+
+}
+
+.contact-content::after {
+    content: "";
+   /* background-image: url('../img/invest.jpg');*/
+    position: absolute;
+    top: 0;
+    width: 100px;
+    height: inherit;
+    opacity: 0.15;
+    z-index: -1;
+}
